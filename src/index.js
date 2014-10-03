@@ -1,1 +1,3 @@
-import app from 'app';
+"use strict";
+
+angular.module('bob.immutable', []);
