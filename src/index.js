@@ -1,3 +1,7 @@
-"use strict";
+import imBind from './im-bind/im-bind';
+import imService from './im-service/im.service';
 
-angular.module('bob.immutable', []);
+export var im = angular.module('im', [
+  imBind.name,
+  imService.name
+]);
